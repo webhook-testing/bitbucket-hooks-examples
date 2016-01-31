@@ -1,0 +1,25 @@
+{
+  "name": "bitbucket-hooks-examples",
+  "version": "1.0.1",
+  "description": "bitbucket webhook json examples for current repository",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.com/webhook-testing/bitbucket-hooks-examples.git"
+  },
+  "keywords": [
+    "bitbucket",
+    "webhook",
+    "webhooks",
+    "examples"
+  ],
+  "author": "webhook-testing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.com/webhook-testing/bitbucket-hooks-examples/issues"
+  },
+  "homepage": "https://bitbucket.com/webhook-testing/bitbucket-hooks-examples#readme"
+}
