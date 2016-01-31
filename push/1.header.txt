@@ -1,0 +1,14 @@
+X-Request-Id: 906f50ad-383b-428a-9da6-026a374e288f
+Accept-Encoding: gzip, deflate
+Cache-Control: max-age=259200
+X-Hook-Uuid: 8e0a64df-c83b-4e13-b352-513e8d77cbc9
+Host: requestb.in
+Accept: */*
+Total-Route-Time: null
+Content-Length: 7247
+Via: 1.1 util-102.ash1.bb-inf.net (squid/3.3.8), 1.1 vegur
+Connect-Time: 5013
+X-Event-Key: repo:push
+Content-Type: application/json
+Connection: close
+User-Agent: Bitbucket-Webhooks/2.0

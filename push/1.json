@@ -1,0 +1,287 @@
+{
+    "repository": {
+        "website": "",
+        "scm": "git",
+        "name": "bitbucket-hooks-examples",
+        "uuid": "{1e8809a8-35a9-4d85-99c2-64d16afc8634}",
+        "full_name": "gableroux/bitbucket-hooks-examples",
+        "owner": {
+            "username": "gableroux",
+            "type": "user",
+            "display_name": "Gabriel Le Breton",
+            "links": {
+                "avatar": {
+                    "href": "https://bitbucket.org/account/gableroux/avatar/32/"
+                },
+                "self": {
+                    "href": "https://api.bitbucket.org/2.0/users/gableroux"
+                },
+                "html": {
+                    "href": "https://bitbucket.org/gableroux/"
+                }
+            },
+            "uuid": "{6465cf19-0deb-458f-b7c8-2fb8669ef350}"
+        },
+        "type": "repository",
+        "is_private": true,
+        "links": {
+            "avatar": {
+                "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/avatar/32/"
+            },
+            "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples"
+            },
+            "html": {
+                "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples"
+            }
+        }
+    },
+    "push": {
+        "changes": [
+            {
+                "created": false,
+                "forced": false,
+                "closed": false,
+                "truncated": false,
+                "commits": [
+                    {
+                        "date": "2016-01-31T22:00:39+00:00",
+                        "parents": [
+                            {
+                                "type": "commit",
+                                "links": {
+                                    "self": {
+                                        "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/commit/6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                                    },
+                                    "html": {
+                                        "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/commits/6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                                    }
+                                },
+                                "hash": "6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                            }
+                        ],
+                        "message": "Testing push webhook\n",
+                        "type": "commit",
+                        "author": {
+                            "raw": "Gabriel Le Breton <lebreton.gabriel@gmail.com>",
+                            "user": {
+                                "username": "gableroux",
+                                "type": "user",
+                                "display_name": "Gabriel Le Breton",
+                                "links": {
+                                    "avatar": {
+                                        "href": "https://bitbucket.org/account/gableroux/avatar/32/"
+                                    },
+                                    "self": {
+                                        "href": "https://api.bitbucket.org/2.0/users/gableroux"
+                                    },
+                                    "html": {
+                                        "href": "https://bitbucket.org/gableroux/"
+                                    }
+                                },
+                                "uuid": "{6465cf19-0deb-458f-b7c8-2fb8669ef350}"
+                            }
+                        },
+                        "links": {
+                            "self": {
+                                "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/commit/d6d4b183005403df921485eb45a8c9ed979c96fb"
+                            },
+                            "html": {
+                                "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/commits/d6d4b183005403df921485eb45a8c9ed979c96fb"
+                            }
+                        },
+                        "hash": "d6d4b183005403df921485eb45a8c9ed979c96fb"
+                    }
+                ],
+                "new": {
+                    "repository": {
+                        "type": "repository",
+                        "name": "bitbucket-hooks-examples",
+                        "uuid": "{1e8809a8-35a9-4d85-99c2-64d16afc8634}",
+                        "links": {
+                            "avatar": {
+                                "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/avatar/32/"
+                            },
+                            "self": {
+                                "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples"
+                            },
+                            "html": {
+                                "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples"
+                            }
+                        },
+                        "full_name": "gableroux/bitbucket-hooks-examples"
+                    },
+                    "type": "branch",
+                    "name": "master",
+                    "links": {
+                        "self": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/refs/branches/master"
+                        },
+                        "commits": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/commits/master"
+                        },
+                        "html": {
+                            "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/branch/master"
+                        }
+                    },
+                    "target": {
+                        "date": "2016-01-31T22:00:39+00:00",
+                        "parents": [
+                            {
+                                "type": "commit",
+                                "links": {
+                                    "self": {
+                                        "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/commit/6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                                    },
+                                    "html": {
+                                        "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/commits/6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                                    }
+                                },
+                                "hash": "6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                            }
+                        ],
+                        "message": "Testing push webhook\n",
+                        "type": "commit",
+                        "author": {
+                            "raw": "Gabriel Le Breton <lebreton.gabriel@gmail.com>",
+                            "user": {
+                                "username": "gableroux",
+                                "type": "user",
+                                "display_name": "Gabriel Le Breton",
+                                "links": {
+                                    "avatar": {
+                                        "href": "https://bitbucket.org/account/gableroux/avatar/32/"
+                                    },
+                                    "self": {
+                                        "href": "https://api.bitbucket.org/2.0/users/gableroux"
+                                    },
+                                    "html": {
+                                        "href": "https://bitbucket.org/gableroux/"
+                                    }
+                                },
+                                "uuid": "{6465cf19-0deb-458f-b7c8-2fb8669ef350}"
+                            }
+                        },
+                        "links": {
+                            "self": {
+                                "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/commit/d6d4b183005403df921485eb45a8c9ed979c96fb"
+                            },
+                            "html": {
+                                "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/commits/d6d4b183005403df921485eb45a8c9ed979c96fb"
+                            }
+                        },
+                        "hash": "d6d4b183005403df921485eb45a8c9ed979c96fb"
+                    }
+                },
+                "links": {
+                    "diff": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/diff/d6d4b183005403df921485eb45a8c9ed979c96fb..6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                    },
+                    "commits": {
+                        "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/commits?include=d6d4b183005403df921485eb45a8c9ed979c96fb&exclude=6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                    },
+                    "html": {
+                        "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/branches/compare/d6d4b183005403df921485eb45a8c9ed979c96fb..6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                    }
+                },
+                "old": {
+                    "repository": {
+                        "type": "repository",
+                        "name": "bitbucket-hooks-examples",
+                        "uuid": "{1e8809a8-35a9-4d85-99c2-64d16afc8634}",
+                        "links": {
+                            "avatar": {
+                                "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/avatar/32/"
+                            },
+                            "self": {
+                                "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples"
+                            },
+                            "html": {
+                                "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples"
+                            }
+                        },
+                        "full_name": "gableroux/bitbucket-hooks-examples"
+                    },
+                    "type": "branch",
+                    "name": "master",
+                    "links": {
+                        "self": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/refs/branches/master"
+                        },
+                        "commits": {
+                            "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/commits/master"
+                        },
+                        "html": {
+                            "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/branch/master"
+                        }
+                    },
+                    "target": {
+                        "date": "2016-01-31T21:51:44+00:00",
+                        "parents": [
+                            {
+                                "type": "commit",
+                                "links": {
+                                    "self": {
+                                        "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/commit/108ca8da96973fb0f6328930404e9eb74a3afd8c"
+                                    },
+                                    "html": {
+                                        "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/commits/108ca8da96973fb0f6328930404e9eb74a3afd8c"
+                                    }
+                                },
+                                "hash": "108ca8da96973fb0f6328930404e9eb74a3afd8c"
+                            }
+                        ],
+                        "message": "initial commit (will gather hooks after)\n",
+                        "type": "commit",
+                        "author": {
+                            "raw": "Gabriel Le Breton <lebreton.gabriel@gmail.com>",
+                            "user": {
+                                "username": "gableroux",
+                                "type": "user",
+                                "display_name": "Gabriel Le Breton",
+                                "links": {
+                                    "avatar": {
+                                        "href": "https://bitbucket.org/account/gableroux/avatar/32/"
+                                    },
+                                    "self": {
+                                        "href": "https://api.bitbucket.org/2.0/users/gableroux"
+                                    },
+                                    "html": {
+                                        "href": "https://bitbucket.org/gableroux/"
+                                    }
+                                },
+                                "uuid": "{6465cf19-0deb-458f-b7c8-2fb8669ef350}"
+                            }
+                        },
+                        "links": {
+                            "self": {
+                                "href": "https://api.bitbucket.org/2.0/repositories/gableroux/bitbucket-hooks-examples/commit/6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                            },
+                            "html": {
+                                "href": "https://bitbucket.org/gableroux/bitbucket-hooks-examples/commits/6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                            }
+                        },
+                        "hash": "6572251f62a4fbcdc8eed6295e2362c8a3829f59"
+                    }
+                }
+            }
+        ]
+    },
+    "actor": {
+        "username": "gableroux",
+        "type": "user",
+        "display_name": "Gabriel Le Breton",
+        "links": {
+            "avatar": {
+                "href": "https://bitbucket.org/account/gableroux/avatar/32/"
+            },
+            "self": {
+                "href": "https://api.bitbucket.org/2.0/users/gableroux"
+            },
+            "html": {
+                "href": "https://bitbucket.org/gableroux/"
+            }
+        },
+        "uuid": "{6465cf19-0deb-458f-b7c8-2fb8669ef350}"
+    }
+}
